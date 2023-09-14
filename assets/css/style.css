@@ -1,0 +1,130 @@
+*{
+    margin:0px;
+    padding:0px
+}
+
+body{
+    background-color: rgb(85, 93, 100);
+    color: brown;
+}
+
+#container{
+    width: 100%;
+    display: table;
+    height: 100%;
+}
+
+#encabezado{
+    display: table;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(212, 242, 214);
+    background-image: url(../img/faros.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#encabezado h1{
+    text-align: center;
+    line-height: 300px;
+    font-family: 'Rubik Iso', cursive;
+    font-size: 6em;
+}
+
+#pie{
+    display: table;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+}
+
+#nav{
+    width: 100%;
+    display: table;
+    background-color: rgb(50, 48, 48);
+}
+
+#nav ol{
+    display: flex;
+}
+
+#nav ol li{
+    list-style: none;
+}
+
+#nav ol li a{
+    text-decoration: none;
+    display: table;
+    padding: 15px 20px 15px 20px;
+    border-right: 1px solid white;
+    color: crimson;
+    font-weight: bold;
+}
+
+#nav ol li a:hover{
+    color: rgb(180, 228, 33);
+    background-color: rgb(7, 251, 11);
+
+}
+
+#cuerpo{
+    text-align: center;
+    display: table;
+    width: 100%;
+    height: 100%;
+
+}
+
+.titulo{
+    color: black;
+    font-family: 'Rubik Iso', cursive;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.subtitulo1{
+    color: blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 1%;
+}
+.subtitulo2{
+    color: rgb(237, 109, 24);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 1%;
+}
+
+.titulo2{
+    text-align: left;
+    color: black;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+}
+
+.parrafo{
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    color: black;
+}
+
+.faro-redondo{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    border: 2px solid blue;
+    border-radius: 15%;
+}
+
+.activa{
+    color: rgb(240, 69, 6);
+    background-color: rgb(7, 88, 251);
+}
